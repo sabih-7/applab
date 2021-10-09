@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="AppLab increase productivity and managing your personal budget."
+    />
+    <meta property="og:title" content="AppLab - Best modern style app." />
+    <meta
+      property="og:description"
+      content="AppLab is an imaginary website. Build in HTML5 and CSS3 from scratch, based on mobile-first approach."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://randomuser.me/api/portraits/men/46.jpg"
+    />
+    <meta property="og:url" content="https://sabihtest.bilalaslam.net/" />
+    <title>AppLab</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/favicon.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="block--header container">
+      <nav class="nav collapsible">
+        <a href="/"
+          ><img
+            src="assets/images/logo.jpg"
+            alt="website logos"
+            class="nav__brand"
+        /></a>
+        <img
+          src="assets/images/menu.svg"
+          alt="menu logo"
+          class="icon nav__toggler"
+        />
+        <ul class="list nav__list collapsible__content">
+          <li class="nav__item"><a href="index.html">home</a></li>
+          <li class="nav__item"><a href="#keyfeatures">key features</a></li>
+          <li class="nav__item"><a href="#whychooseus">why choose us</a></li>
+          <li class="nav__item"><a href="#pricing">pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Block -->
+    <section class="block block--hero">
+      <div class="container grid grid--cols-2">
+        <header class="block__header hero__content">
+          <h1>Best app for your modern lifestyle</h1>
+          <p class="hero__tagline">
+            Increase productivity with a simple to-do app. app for managing your
+            personal budgets.
+          </p>
+          <a href="#" class="btn btn--primary">Try for free</a>
+        </header>
+        <picture class="hero__mobile">
+          <source type="image/webp" srcset="assets/images/mobile.webp" />
+          <source type="image/png" srcset="assets/images/mobile.png" />
+          <img src="assets/images/mobile.png" alt="mobile picture" />
+        </picture>
+      </div>
+    </section>
+
+    <!-- Features Block -->
+    <section id="keyfeatures" class="block container grid grid--cols-2">
+      <picture class="feature__mobile">
+        <source
+          type="image/webp"
+          srcset="
+            assets/images/features-sm.webp 1x,
+            assets/images/features-lg.webp 2x
+          "
+        />
+        <source
+          type="image/png"
+          srcset="
+            assets/images/features-sm.png 1x,
+            assets/images/features-lg.png 2x
+          "
+        />
+        <img src="assets/images/features-lg.png" alt="features pic" />
+      </picture>
+      <header class="block__header features">
+        <h2 class="block__heading">Awesome apps features</h2>
+        <p class="features__tagline">
+          Increase productivity with a simple to&dash;do app. App for managing
+          your personal budgets.
+        </p>
+        <div class="media media--side">
+          <div class="media__image">
+            <span class="icon-container icon-container--carnation">
+              <img
+                src="assets/images/speedometer.png"
+                alt="Performance Icon"
+                class="icon icon--carnation"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title media__title-carnation">
+              fast performance
+            </h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media media--side">
+          <div class="media__image">
+            <span class="icon-container icon-container--blue">
+              <img
+                src="assets/images/prototyping.png"
+                alt="Performance Icon"
+                class="icon icon--blue"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title media__title-blue">prototyping</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media media--side">
+          <div class="media__image">
+            <span class="icon-container icon-container--green">
+              <img
+                src="assets/images/vector.png"
+                alt="Performance Icon"
+                class="icon icon--green"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title media__title-green">vector editing</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- Smart Block -->
+    <section class="block container grid grid--cols-2 smart">
+      <header class="block__header">
+        <h2 class="block__heading">
+          Smart jackpots that you may love this anytime &amp; anywhere
+        </h2>
+      </header>
+      <p class="smart__tagline">
+        The rise of mobile devices transforms the way we consume information
+        entirely and the world&apos;s most elevant channels such as Facebook.
+      </p>
+    </section>
+    <section class="block container grid grid--cols-3 grid--gap smart--medias">
+      <div class="media block__header">
+        <div class="media__image">
+          <span class="icon-container icon-container--carnation">
+            <img
+              src="assets/images/bill.png"
+              alt="Bill Icon"
+              class="icon icon--carnation"
+            />
+          </span>
+        </div>
+        <div class="media__body">
+          <h3 class="media__title media__title-carnation">automatic payouts</h3>
+          <p class="smart--medias__tagline">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests.
+          </p>
+        </div>
+      </div>
+      <div class="media block__header">
+        <div class="media__image">
+          <span class="icon-container icon-container--blue">
+            <img
+              src="assets/images/network.png"
+              alt="Network Icon"
+              class="icon icon--blue"
+            />
+          </span>
+        </div>
+        <div class="media__body">
+          <h3 class="media__title media__title-blue">network effect</h3>
+          <p class="smart--medias__tagline">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests.
+          </p>
+        </div>
+      </div>
+      <div class="media block__header">
+        <div class="media__image">
+          <span class="icon-container icon-container--green">
+            <img
+              src="assets/images/reward.png"
+              alt="Performance Icon"
+              class="icon icon--green"
+            />
+          </span>
+        </div>
+        <div class="media__body">
+          <h3 class="media__title media__title-green">bigger rewards method</h3>
+          <p class="smart--medias__tagline">
+            Get your blood tests delivered at home collect a sample from the
+            news your blood tests.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design Block -->
+    <section class="block container grid grid--cols-2 grid--gap">
+      <picture>
+        <source type="image/webp" srcset="assets/images/design.webp" />
+        <source type="image/png" srcset="assets/images/design.png" />
+        <img src="assets/images/design.png" alt="design pic" />
+      </picture>
+      <header class="block__header design">
+        <h2 class="block__heading">
+          Designed &amp; built by the latest code integration
+        </h2>
+        <p class="block__tagline">
+          The rise of mobile devices transforms the way we consume information
+          entirely and the world&apos;s most elevant channels such as Facebook.
+        </p>
+        <a href="#" class="btn btn--primary">Learn more</a>
+      </header>
+    </section>
+
+    <!-- Why you should choose Block -->
+    <section id="whychooseus" class="block container choose">
+      <header class="block__header">
+        <h2>Why you should choose our app</h2>
+        <p>
+          The rise of mobile devices transforms the way we consume information
+          entirely and the world&apos;s most elevant channels such as Facebook.
+        </p>
+      </header>
+      <div class="grid grid--cols-3 grid--gap">
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--carnation">
+              <img
+                src="assets/images/mobile-app.png"
+                alt="Mobile Icon"
+                class="icon"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">app development</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--green">
+              <img
+                src="assets/images/trophy.png"
+                alt="Trophy Icon"
+                class="icon"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">10 times award</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--blue">
+              <img
+                src="assets/images/cloud.png"
+                alt="Cloud Icon"
+                class="icon"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">cloud storage</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--green">
+              <img
+                src="assets/images/tools.png"
+                alt="Tools Icon"
+                class="icon"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">customization</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--blue">
+              <img src="assets/images/ui.png" alt="UI Icon" class="icon" />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">ux planning</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <span class="icon-container icon-container--carnation">
+              <img
+                src="assets/images/customer-service.png"
+                alt="Customer Service Icon"
+                class="icon"
+              />
+            </span>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title">customer support</h3>
+            <p>
+              Get your blood tests delivered at home collect a sample from the
+              news your blood tests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ultimate features Block -->
+    <section class="block container grid grid--cols-2">
+      <header class="block__header">
+        <h2>Ultimate features that we built</h2>
+        <p>
+          The rise of mobile devices transforms the way we consume information
+          entirely.
+        </p>
+        <div class="grid grid--cols-2 grid--gap">
+          <div class="media">
+            <div class="media__image">
+              <span class="icon-container icon-container--carnation">
+                <img
+                  src="assets/images/mobile-app.png"
+                  alt="Mobile Icon"
+                  class="icon"
+                />
+              </span>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">app development</h3>
+              <p>
+                Get your blood tests delivered at home collect a sample from the
+                news your blood tests.
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media__image">
+              <span class="icon-container icon-container--green">
+                <img src="assets/images/ui.png" alt="UI Icon" class="icon" />
+              </span>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">ux planning</h3>
+              <p>
+                Get your blood tests delivered at home collect a sample from the
+                news your blood tests.
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media__image">
+              <span class="icon-container icon-container--blue">
+                <img
+                  src="assets/images/cloud.png"
+                  alt="Cloud Icon"
+                  class="icon"
+                />
+              </span>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">cloud storage</h3>
+              <p>
+                Get your blood tests delivered at home collect a sample from the
+                news your blood tests.
+              </p>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media__image">
+              <span class="icon-container icon-container--carnation">
+                <img
+                  src="assets/images/customer-service.png"
+                  alt="Customer Service Icon"
+                  class="icon"
+                />
+              </span>
+            </div>
+            <div class="media__body">
+              <h3 class="media__title">customer support</h3>
+              <p>
+                Get your blood tests delivered at home collect a sample from the
+                news your blood tests.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn--primary">See all</a>
+      </header>
+      <picture>
+        <source type="image/webp" srcset="assets/images/ultimate.webp" />
+        <source type="image/png" srcset="assets/images/ultimate.png" />
+        <img src="assets/images/ultimate.png" alt="design pic" />
+      </picture>
+    </section>
+
+    <!-- Plans Block -->
+    <section id="pricing" class="block container plan">
+      <header class="block__header">
+        <h2>Get aweosme features, without extra charges</h2>
+        <p>
+          The rise of mobile devices transforms the way we consume information
+          entirely and the world&apos;s most elevant channels such as Facebook.
+        </p>
+      </header>
+    </section>
+    <section class="block container grid grid--cols-2 grid--gap">
+      <div class="plan">
+        <div class="card card--primary">
+          <header class="card__header">
+            <span class="plan__price">$0</span>
+            <span class="plan__billing-cycle">/month</span>
+            <h3 class="plan__name">business class</h3>
+            <p class="plan__description">For small teams or office</p>
+          </header>
+          <div class="card__body">
+            <ul class="list list--plan">
+              <li class="list__item">drag &amp; drop builder</li>
+              <li class="list__item">1,000s of templates</li>
+              <li class="list__item">blog support tools</li>
+              <li class="list__item">ecommerce store</li>
+            </ul>
+            <button type="button" class="btn btn--primary btn--block">
+              Start free trail
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="plan">
+        <div class="card card--secondary">
+          <header class="card__header">
+            <span class="plan__price">$99</span>
+            <span class="plan__billing-cycle">/month</span>
+            <h3 class="plan__name">pro master</h3>
+            <p class="plan__description">For best opportunities</p>
+          </header>
+          <div class="card__body">
+            <ul class="list list--plan">
+              <li class="list__item">drag &amp; drop builder</li>
+              <li class="list__item">1,000s of templates</li>
+              <li class="list__item">blog support tools</li>
+              <li class="list__item">ecommerce store</li>
+            </ul>
+            <button type="button" class="btn btn--primary btn--block">
+              Subscribe Now
+            </button>
+            <a href="#" class="card__link">Or Start 14 days trial</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="block">
+      <div class="container">
+        <img
+          src="assets/images/footer-logo.png"
+          alt="website logo"
+          class="nav__brand"
+        />
+        <ul class="list list--inline">
+          <li class="list__item"><a href="index.html">home</a></li>
+          <li class="list__item"><a href="#keyfeatures">key features</a></li>
+          <li class="list__item"><a href="#pricing">pricing</a></li>
+        </ul>
+        <a href="#" class="footer-logo">
+          <img
+            src="assets/images/facebook.png"
+            alt="facebook link"
+            class="footer-logo__color"
+          />
+        </a>
+        <a href="#" class="footer-logo">
+          <img
+            src="assets/images/twitter.png"
+            alt="twitter link"
+            class="footer-logo__color"
+          />
+        </a>
+        <a href="#" class="footer-logo">
+          <img
+            src="assets/images/github.png"
+            alt="github link"
+            class="footer-logo__color"
+          />
+        </a>
+        <p class="footer-text">
+          copyright &copy; applab 2021. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
